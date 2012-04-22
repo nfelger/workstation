@@ -1,3 +1,7 @@
 cookbook_paths:
 - ./chef/cookbooks
 recipes:
+- pivotal_workstation::rvm
+- pivotal_workstation::mysql
+- pivotal_workstation::defaults_fast_key_repeat_rate
+- pivotal_workstation::vim
